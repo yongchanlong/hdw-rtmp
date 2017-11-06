@@ -111,6 +111,7 @@ STATSUSER=stats - set the user for the stats page.
 STATSPW=page - set the password for the stats page.
 
 TARGET=localhost - sets the target streampage for the hdw player configuration. Should point to your Server IP adress or DNS Name
+HTTPTARGET=$TARGET - set the target for the html5 players independent of the rtmp target. It's only necessary if if you have some abstraction between the exposing paths, like kubernetes. Normaly you don't need to set this value
 KEY=key - set the stream key for your stream. This is only requiered if you want to use the buld in players and change the default stream key you are streaming with.
 ```
 
